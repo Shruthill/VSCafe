@@ -1,0 +1,91 @@
+body{
+    background:linear-gradient(to right, #2de2ca, #efacd7);
+    font-family: sans-serif
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+.cafename{
+    font-style: italic;
+    font-size: 50px;
+    color: white
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    margin: 70px;
+    border-radius: 25px;
+}
+h2{
+    color: rgb(107, 105, 105);
+}
+input{
+    border-style: none;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.forgot{
+    font-size: x-small;
+    text-align: end;
+    color: gray
+}
+#login{
+    
+    background-color: rgb(25, 222, 25);
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+}
+#login:hover{
+    padding: 10px 30px;
+    margin: 10px;
+    background-color: rgb(242, 242, 2);
+    color: black;
+}
+#reset{
+    
+    background-color: rgb(62, 161, 241);
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+}
+#reset:hover{
+    padding: 10px 30px;
+    margin: 10px;
+    background-color: rgb(242, 242, 2);
+    color: black;
+}
+#register{
+    border-radius: 15px;
+    background-color: rgb(241, 153, 10);
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+#register:hover{
+    padding: 10px 30px;
+    margin: 10px;
+    background-color: rgb(242, 242, 2);
+    color: black;
+}
+.form-container > div p{
+font-size: small;
+color: gray
+}

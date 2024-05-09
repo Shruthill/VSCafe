@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(245, 149, 5);
+    font-family: sans-serif;
+}
+.form-details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items:center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: white;
+}
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 30px;
+    background-color: rgba(253, 254, 254, 0.082);
+}
+input{
+    border-style: none;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    
+}
+label{
+    color: gray;
+}
+#roles{
+    border-style: none;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+}
+#submit{
+    
+    background-color: rgb(242, 111, 5);
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+}
+#submit:hover{
+    padding: 10px 30px;
+    margin: 10px;
+    background-color: rgb(13, 214, 26);
+    color: black;
+}
+#reset{
+    
+    background-color: rgb(62, 161, 241);
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+}
+#reset:hover{
+    padding: 10px 30px;
+    margin: 10px;
+    background-color: rgb(242, 242, 2);
+    color: black;
+}

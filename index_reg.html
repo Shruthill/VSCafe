@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register VSCafe</title>
+    <link rel="stylesheet" href="./style1.css">
+</head>
+<body>
+    <div class="form-details">
+        <div>
+            <h2>Register</h2>
+        </div>
+        <div>
+            <form action="/Mini Projects/Recipes/index.html">
+                     <div><label for="firstname">*Firstname</label>
+                     <input type="text" name="firstname" placeholder="First Name" id="inputvalue" required><br>
+                    </div>
+                    <div><label for="lastname">*Lastname</label>
+                     <input type="text" name="lastname" placeholder="Last Name" id="inputvalue" required><br>
+                    </div>
+                    <div><label for="password">*Password</label>
+                     <input type="password" name="password" placeholder="Password" id="inputvalue" pattern="[a-z][A-Z]{0-9}" required><br>
+                    </div>
+                    <div><label for="email">*Email ID </label>
+                     <input type="email" name="email" placeholder="Email ID" id="inputvalue" required><br>
+                    </div>
+                    <div><label for="tel">*Mobile No.</label>
+                     <input type="tel" name="mobile" placeholder="Mobile No." id="inputvalue" pattern="{0-9}" required><br>
+                    </div>
+                    <div ><label for="roles">*Choose Role</label>
+
+                        <select name="roles" id="roles">
+                            <option id="inputvalue" value="customer">Customer</option>
+                            <option id="inputvalue" value="admin">Admin</option>
+                        </select></div>
+                    <div><input type="submit" value="Submit" id="submit"></div>
+                     <div><input type="reset" value="Reset" id="reset"></div>
+                  
+            </form>
+        </div>
+   </div>
+</body>
+</html>
